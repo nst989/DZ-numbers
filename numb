@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void checkNum(int N) {
+    // Проверка, равно ли число нулю
+    if (N == 0) {
+        printf("Ноль\n");
+        return;
+    }
+    // Извлечение msb
+    int msb = N & (1 << (sizeof(int) * 8 - 1));
+    if (msb) printf("Отрицательный\n");
+    else printf("Положительный\n");
+}
+
+int main() {
+    int N = 0;
+    checkNum(N);
+    return 0;
+}
