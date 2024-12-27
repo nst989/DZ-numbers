@@ -1,3 +1,4 @@
+//см readme.md
 #include <stdio.h>
 
 void checkNum(int N) {
