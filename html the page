@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Добро пожаловать на мою страницу</h1>
+    <p>Меня зовут Настя и мне 16 лет</p>
+
+    <h2>Список дел</h2>
+    <ul>
+        <li>Купить продукты</li>
+        <li>Погулять</li>
+        <li>Лечь спать</li>
+    </ul>
+
+    
+</body>
+</html>
